@@ -2,7 +2,7 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open('pwa-cache').then(cache => {
       return cache.addAll([
-        '/Home.html',
+        '/Index.html',
         '/logohrbg (1).png',
         '/About.html',
         '/Contact.html',
@@ -18,8 +18,8 @@ self.addEventListener('fetch', event => {
   
   if (event.request.url === self.location.origin + '/') {
       event.respondWith(
-          caches.match('/Home.html').then(response => {
-              return response || fetch('/Home.html');
+          caches.match('/Index.html').then(response => {
+              return response || fetch('/Index.html');
           })
       );
   } else {

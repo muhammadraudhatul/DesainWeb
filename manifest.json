@@ -1,7 +1,7 @@
 {
-    "name": "Miura Citrinne",
-    "short_name": "MC",
-    "start_url": "/Home.html",
+    "name": "Desain Web",
+    "short_name": "DW",
+    "start_url": "/Index.html",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#000000",
