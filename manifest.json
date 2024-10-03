@@ -1,0 +1,21 @@
+{
+    "name": "Miura Citrinne",
+    "short_name": "MC",
+    "start_url": "/Home.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "logohrbg(2).png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "logohrbg(3).png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
